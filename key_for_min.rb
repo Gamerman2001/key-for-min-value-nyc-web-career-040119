@@ -3,7 +3,7 @@
 
 
 def key_for_min_value(hash)
-  number_val = hash.values.to_a.sum
+  number_val = 900
   lowest_key = nil
 
   hash.each do | key, val|
